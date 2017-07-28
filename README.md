@@ -1,23 +1,21 @@
 # webtesting
 
-Projet site web:
+##Projet: Site personnel / professionel
 
-site personnel / professionel
+1. Tabs :
+	* CV type (school, xp)
+	* Project (Github link, presentation and result
+	* Contact (Social media link, commentary space)
 
-Tabs :
-CV type (school, xp)
-Project (Github link, presentation and result
-Contact (Social media link, commentary space)
+2. Features needed:
+	* Dark / Light site
+	* Mobile and all screen size
+	* Francais / English
 
-Features needed:
-Dark / Light site
-Mobile and all screen size
-Francais / English
-
-Tools:
-HTML / CSS (boostrap)
-SQL Database
-Python / Django
-PHP
-Javascript
-Server Liquid SSH
+3. Tools:
+	* HTML / CSS (boostrap)
+	* SQL Database
+	* Python / Django
+	* PHP
+	* Javascript
+	* Server Liquid SSH
