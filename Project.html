@@ -1,40 +1,128 @@
-Page Project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Themes, Templates, Bootstrap, CSS, HTML"/>
+    <meta name="Description" content="Themes Forever is developer for template by Bootstrap"/>
+    <meta name="Distribution" content="global"/>
+    <meta name="Robots" content="all"/>
+ 
+    <!-- Note there is no responsive meta tag here -->
 
-------------
+    <link rel="icon" href="../../favicon.ico">
 
-Type formulaire avec les sections suivantes:
+    <title>Project page</title>
+  <link href="dist/css/animate.min.css" rel="stylesheet">
+  <link href="dist/css/entreprise-c1.css" rel="stylesheet">
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap Core CSS -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"><!-- Font Awesome -->
+  <link href="img/favicon.png" type="image/png" rel="icon"><!-- Favicon Browser -->  
+  
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
-- nom du projet
-- domaine d'etude
-- en cours / terminé
-- prive / public
-- courte descriptions genre abstract
-- lien github
-- technologies utilisées
+</head>
+<body>
 
--------------
-exemple :
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+	    <li><a href="index.html">Home</a></li>
+	    <li><a href="cv.html">Curriculum Vitae</a></li>
+            <li class="active"><a href="#">Projects</a></li>            
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-- Twitter guess
-- BigData, Mathematiques, finance
-- En cours
-- Semi public
-- Objectif : Faire des predictions (exemple: marché financier, politiques, tendances) graces a un gros volume de données (tweets). methodes de regression lineaire standard, Monte carlo, statistiques bayesiennes
-- Pas de lien
-- Python (model), Fortran, R (calcul), Javascript (webscrapping), SQL (Filter tweets)
+ <div class="wrapper">
+ <div class="box">
+ <div class="row">
+<section class="column col-sm-12 wrapper-section">
+ <div class="full col-sm-12">
+        <h1 class="cover-heading"> Mes travaux et projets </h1>
+        <p class="lead">Presentation de mes projets numerique. for more information.</p>
+        
+        <!--Project one-->
+        <div class="row">
+            <div class="col-md-2">
+                <a href="#">
+                    <img class="img-responsive img-rounded" src="images/scoot.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-md-10">
+                <h3>Projet 2014 Securité routierre</h3>
+                <h4>utilisateur de deux roues et remonter de file</h4>
+                <p> <li> Ce projet a pour but d'essayer de determiner le risque pour un motocycliste de slalomer et remonter les files </li> 
+		    <li> Determinerle gain de securite en cas d'ajout d'une demi voix suplementaire pour les deux roues. Et le </li>
+		    <li> Projet sur Matlab.</li>
+		    <li> Projet Public et terminé</li>
+                </p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
 
-- Philemon-site web
-- web developpement, design, creative stuff
-- En cours
-- Public
-- Objectif : 
-- Kercadio.github/webtesting
-- HTML/CSS, Javascript, PHP, SQL, Python DJango
+<br> <!-- Saut de ligne -->
 
-- TIPE Math spe, Modelisation de la securité des 2 roues
-- Modele cellulaire, Science social
-- Terminé
-- Public
-- Objectif : Essayer de determiné la dangerosité pour un motocycliste de slalomer entre les files, determinerle gain de securite en cas d'ajout d'une demi voix suplementaire pour les deux roues.
-- Pas de lien encore
-- Matlab
+       <!--Project 2-->
+       <div class="row">
+            <div class="col-md-2">
+                <a href="#">
+                    <img class="img-responsive img-rounded" src="images/ordi.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-md-10">
+                <h3>Projet 2017 Site web</h3>
+                <h4>Création d'un site web pro + perso</h4>
+                <p> <li> 1) Découvrir les technologies de base du developpement web  (HTML/CSS, javascript et ses modules,PHP et pourquoi pas Django à l'avenir)</li>
+		            <li> 2) Me créer un espace public d'echange pour mes projets futurs, partager mes coups de coeur d'internet (Blog, forum, site, application, pratiques)</li>
+		            <li>3) Améliorer ma visibilité professionnel pour mon stage de fin d'étude en Fevrier 2018</li>
+	        	</p>
+                <a class="btn btn-primary" href="index.html">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+
+<br> <!-- Saut de ligne -->
+       
+	<!--Project 3-->
+	<div class="row">
+            <div class="col-md-2">
+                <a href="#">
+                    <img class="img-responsive img-rounded" src="images/twitter.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-md-10">
+                <h3>Projet 2017 Twitter predict Market</h3>
+                <h4>Modele MCMC pour predire le marché grace a twitter</h4>
+                <p> <li> 1) Recuperer les tweets liés au compagnies étudiés</li>
+		    <li> 2) Entrainer le modeles sur une periode de temps determiné les filtres et parametre important</li>
+		    <li> 3) Analyser les resultats + prise de décision</li>
+		</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+	</div>
+      
+</div>
+</section>
+</div>
+</div>
+</div>
+    <!-- Bootstrap core JavaScript-->
+ 
+  <!-- jQuery -->
+  <script src="dist/js/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="dist/js/bootstrap.min.js"></script>
+
+  <!-- Plugins JS -->
+  <script src="dist/js/debouncer.js"></script>
+
+  <!-- Core Theme JS -->
+  <script src="dist/js/enterprise.js"></script>  
+</body>
+</html>
